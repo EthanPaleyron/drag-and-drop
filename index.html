@@ -6,14 +6,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/2621df78fc.js" crossorigin="anonymous"></script>
-  <title>Name</title>
+  <title>Drag & Drop</title>
 </head>
 
 <body>
 
-  <h1>Hello World</h1>
+  <h1>Drag & Drop</h1>
 
-  <script type="module" src="/js/main.js"></script>
+  <section>
+    <h2>1 picture Drag & Drop</h2>
+    <div class="content_box">
+      <div class="box">
+        <div class="image" draggable="true"></div>
+      </div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </section>
+
+  <!-- List -->
+  <div class="content_lists">
+    <h2>Liste Drag & Drop</h2>
+    <ul class="slist" id="sortableList">
+      <li>
+        <i class="fa-solid fa-grip-vertical"></i>
+        <h3>Hello</h3>
+      </li>
+      <li>
+        <i class="fa-solid fa-grip-vertical"></i>
+        <h3>Bonjour</h3>
+      </li>
+      <li>
+        <i class="fa-solid fa-grip-vertical"></i>
+        <h3>Hola</h3>
+      </li>
+      <li>
+        <i class="fa-solid fa-grip-vertical"></i>
+        <h3>Guten Morgen</h3>
+      </li>
+    </ul>
+  </div>
+
+  <script type="module" src="/js/main.js" defer></script>
 </body>
 
 </html>
